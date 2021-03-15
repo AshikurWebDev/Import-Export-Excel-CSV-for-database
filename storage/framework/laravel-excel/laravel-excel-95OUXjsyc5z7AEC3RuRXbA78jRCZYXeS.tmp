@@ -1,0 +1,5 @@
+Id,Name,Email,Phone,Salary,Department
+1,Alice,alice@gmail.com,01717464638,30000,Accounting
+2,Andrew,andrew@gmail.com,01717464632,40000,Management
+3,Jennifer,jennifer@gmail.com,017174646111,40000,Accounting
+4,Bravo,bravo@gmail.com,017174646222,60000,ICT
