@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DropeJoneController;
 use App\Http\Controllers\EmpContoller;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\ImageController;
@@ -56,3 +57,7 @@ Route::post('/import', [EmployeeController::class, 'import']);
 Route::get('/resize-image', [ImageController::class, 'resizeImage']);
 
 Route::post('/resize-image', [ImageController::class, 'resizeImageSubmit']);
+
+Route::get('/dropezone',[DropeJoneController::class, 'dropezone']);
+
+Route::post('/dropezone-store', [DropeJoneController::class, 'dropezoneStore']);
